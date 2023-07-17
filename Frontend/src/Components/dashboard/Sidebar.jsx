@@ -56,7 +56,7 @@ const Sidebar = ({
     <div>
       <div className="sidebar">
         <div className="logo">
-          <h1>BloodLink</h1>
+          <h1>BloodSaver</h1>
           {/* <button className="beDonor">Be a Donor!</button> */}
         </div>
         {donor ? (
