@@ -30,7 +30,7 @@ const DonorDashboard = () => {
     donation_required_to_reach_next_level: 0,
   });
 
-  const url = "http://35.244.15.171:8000";
+  const url = "http://3.109.122.11:8000";
   const [response, setResponse] = useState(null);
   const navigate = useNavigate();
 

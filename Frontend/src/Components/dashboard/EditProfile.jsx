@@ -20,7 +20,7 @@ const EditProfile = () => {
   const fetchProfileData = async (user_id) => {
     try {
       let { data } = await axios.get(
-        `http://35.244.15.171:8000/accounts/profile/${user_id}`
+        `http://3.109.122.11:8000/accounts/profile/${user_id}`
       );
       setprevData(data);
       console.log("Data", data);
@@ -35,7 +35,7 @@ const EditProfile = () => {
       setLoading(true);
       const user_id = localStorage.getItem("user_id");
       let { data } = await axios.put(
-        `http://35.244.15.171:8000/accounts/profile/${user_id}/`,
+        `http://3.109.122.11:8000/accounts/profile/${user_id}/`,
         {
           first_name: prevData.first_name,
           last_name: prevData.last_name,

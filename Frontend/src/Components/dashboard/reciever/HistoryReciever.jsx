@@ -85,7 +85,7 @@ const HistoryReciever = () => {
   const fetchRecieverHistory = async (user_id) => {
     try {
       let { data } = await axios.post(
-        "http://35.244.15.171:8000/donation/receiver-history/",
+        "http://3.109.122.11:8000/donation/receiver-history/",
         {
           requested_by: user_id,
         },

@@ -83,7 +83,7 @@ const Request = () => {
   const handleEmergencyRequirementChange = (event) => {
     setEmergencyRequirement(event.target.checked);
   };
-  const URL = "http://35.244.15.171:8000";
+  const URL = "http://3.109.122.11:8000";
 
   const createRequest = async () => {
     const user_id = localStorage.getItem("user_id");
