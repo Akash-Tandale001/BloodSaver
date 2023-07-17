@@ -36,7 +36,7 @@ const HistoryDonor = () => {
   };
 
   const navigate = useNavigate();
-  const url = "http://3.109.122.11:8000";
+  const url = "http://35.244.15.171:8000";
   // donor window
   const fetchDonorHistory = async (user_id) => {
     try {

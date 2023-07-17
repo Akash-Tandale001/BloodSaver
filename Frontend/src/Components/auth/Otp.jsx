@@ -14,7 +14,7 @@ const Otp = () => {
   const location = useLocation();
   const navigate = useNavigate();
 
-  const URL = "http://3.109.122.11:8000";
+  const URL = "http://35.244.15.171:8000";
 
   const verifyOTP = async () => {
     try {

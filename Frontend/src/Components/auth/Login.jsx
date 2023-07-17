@@ -27,7 +27,7 @@ const Login = () => {
 
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
-  const URL = "http://3.109.122.11:8000";
+  const URL = "http://35.244.15.171:8000";
   const token = localStorage.getItem("access");
 
   const access = async () => {
