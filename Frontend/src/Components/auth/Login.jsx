@@ -110,13 +110,13 @@ const Login = () => {
     <div>
       <Wapper>
         <Container_left>
-          <h1> BloodLink </h1>
+          <h1> BloodSaver </h1>
           <p>"Connecting Lives, Saving Futures."</p>
         </Container_left>
         <Container_right className="container_right login">
           <div className="form-container">
             <div className="auth-heading">
-              <p>Log in to BloodLink</p>
+              <p>Log in to BloodSaver</p>
             </div>
             <form onSubmit={handleSubmit} autoComplete="off">
               <div className="Email">
